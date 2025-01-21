@@ -28,3 +28,7 @@ This command opens a development shell with the corresponding needed packages an
 - hugo-dev
 - python-dev
 - rust-dev
+
+## License
+
+See [LICENSE](./LICENCE).

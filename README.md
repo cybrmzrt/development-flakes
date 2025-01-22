@@ -22,6 +22,9 @@ nix flake init --template "github:cybrmzrt/development-flakes#rust-dev"
 
 This command opens a development shell with the corresponding needed packages and environment variables. Furthermore, the template loads a `.envrc` file telling `direnv` to use the flake to load environment variables.
 
+> [!Info]
+> If `direnv` is installed, it should automatically use the flake according to `.envrc`. However, it is possible that you have to activate direnv first, i.e., run `direnv allow`.
+
 ## Available flakes
 
 - default

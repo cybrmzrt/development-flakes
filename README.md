@@ -13,7 +13,7 @@ You need
 
 ## Usage
 
-Use these templates when you initialise your project.
+Use these templates when you initialize your project.
 For example, when initializing a Rust project, open a command line and run
 
 ```sh

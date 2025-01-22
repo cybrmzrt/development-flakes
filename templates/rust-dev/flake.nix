@@ -26,10 +26,10 @@
         default = pkgs.mkShell {
           # The Nix packages provided in the environment
           # Add any you need here
-          packages = with pkgs; [ ];
+          packages = with pkgs; [ rustc cargo cargo-generate ];
 
           # Set any environment variables for your dev shell
-          env = { };
+          env = { RUST_BACKTRACE="1"; };
 
           # Add any shell logic you want executed any time the environment is activated
           shellHook = ''
